@@ -5,13 +5,16 @@
 #include <iostream>
 #include <string>
 
+using namespace std;
+
 int main () {
-    std::string name;
-    std::cin >> name;
+    string name;
+    cout << "Inserire nome:\n> " << flush;
+    cin >> name;
 
-    std::cout << name;
+    cout << name;
 
-    std::cout << std::endl << std::endl;
+    cout << endl << endl;
 
     return(0);
 }
